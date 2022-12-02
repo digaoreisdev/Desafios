@@ -1,38 +1,37 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background-color: ${props => props.theme["gray-900"]};
-  padding: 2.5rem 0 7.5rem;
+  background: ${props => props.theme["white-100"]};
+  padding: 2rem 10rem 2rem;
 `
 
 export const HeaderContent = styled.div`
   width: 100%;
-  max-width: 1128px;
-  margin:0 auto;
-  padding:0 1.5rem;
-  
+  height: 104px;
+  max-Width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* gap: 820px; */
+  
+  background: gray;
 `
-export const SelectCity = styled.button`
-  box-sizing: border-box;
 
-width: 143px;
-  height: 38px;
-  font-size: 6px;
-  
-  justify-content: space-between;
+export const consultCartButton = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 8px;
-  
-  border: 0;
-  background: ${props => props.theme["gray-300"]};
-  color: ${props => props.theme.white};
   border-radius: 6px;
-  cursor: pointer;
   
-  &:hover {
-    background-color: ${props => props.theme["gray-600"]};
-    transition: all 0.5s ease-in-out;
-  }
+  width: 38px;
+  height: 38px;
+  margin: 33px 160px 33px 1242px;
+  
+  border: none;
+  background: ${props => props.theme["yellow-200"]};
+  cursor: pointer;
 `
