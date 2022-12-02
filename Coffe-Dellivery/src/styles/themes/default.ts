@@ -3,8 +3,8 @@ export const defaultTheme = {
 
   'purple-500': '#4B2995',
 
-  'gray-50': '#EBE5F9',
   'gray-100': '#E1E1E6',
+  'gray-200': '#EBE5F9',
   'gray-300': '#C4C4CC',
   'gray-400': '#8D8D99',
   'gray-500': '#7C7C8A',
