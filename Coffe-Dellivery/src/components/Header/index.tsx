@@ -1,7 +1,8 @@
-import { HeaderContainer, HeaderContent, ConsultCartButton, ActionsNaveBar } from "./styles"
+import { HeaderContainer, HeaderContent, ConsultCartButton, ActionsNaveBar, IntroContainer } from "./styles"
 import logoImg from '../../assets/logo.svg'
 import locationImg from '../../assets/location.svg'
 import cartImg from '../../assets/cart.svg'
+import glassCoffeImg from '../../assets/glassCoffe.png'
 
 export function Header() {
   return (
@@ -18,6 +19,13 @@ export function Header() {
           <img className="cartImg" src={cartImg} alt="Carrinho" />
         </ConsultCartButton>
       </HeaderContent>
+      
+      <IntroContainer>
+        <h1>Encontre o Café Perfeito para qualquer hora do dia</h1>
+        <p>Com o Coffe Dellivery você recebe seu café onde estiver, a qualquer hora</p>
+        <img src="glassCoffeImg" alt="" />
+      </IntroContainer>
     </HeaderContainer>
+    
   )
 }

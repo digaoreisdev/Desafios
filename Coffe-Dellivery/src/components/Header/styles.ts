@@ -16,8 +16,6 @@ export const HeaderContent = styled.div`
   align-items: center;
   /* gap: 820px; */
   
-  background: gray;
-  
   .logoImg {
     margin: 2.0625rem 40rem 2.0625rem 10rem;
   }
@@ -69,5 +67,19 @@ export const ConsultCartButton = styled.button`
   &:hover {
     border: 3px solid ${props => props.theme["green-500"]};
   }
+`
 
+export const IntroContainer = styled.div`
+  width: 100%;
+  max-width: 1440px;
+  height: 544px;
+  margin-top: 104px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    
+  }
 `
